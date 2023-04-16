@@ -3596,9 +3596,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title.prefix": "DSpace Angular :: ",
+  "repository.title.prefix": "DSpace@IITH ",
 
-  "repository.title.prefixDSpace": "DSpace Angular ::",
+  "repository.title.prefixDSpace": "DSpace@IITH ",
 
 
   "resource-policies.add.button": "Add",
