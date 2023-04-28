@@ -2,53 +2,46 @@
   <div class="container">
     <div class="jumbotron jumbotron-fluid">
       <div class="d-flex flex-wrap">
-        <div>
-          <h1 class="display-3">DSpace@IITH</h1>
-          <p class="lead">
-            <br><br><br><br><br><br><br>
-          </p>
+        <div class="text-container">
+          <h1 class="display-3 heading">RAIITH</h1>
+          <div class="lead">
+            <p>Research Archive of Indian Institute of Technology Hydereabad</p>
+            <!-- <p class="lead">
+              <br><br><br><br><br><br><br>
+            </p> -->
+          </div>
         </div>
       </div>
-      <!-- <ul>
-        <li>easily ingest documents, audio, video, datasets and their corresponding Dublin Core
-          metadata
-        </li>
-        <li>open up this content to local and global audiences, thanks to the OAI-PMH interface and
-          Google Scholar optimizations
-        </li>
-        <li>issue permanent urls and trustworthy identifiers, including optional integrations with
-          handle.net and DataCite DOI
-        </li>
-      </ul> -->
-      <!-- <p>Join an international community of <a href="https://wiki.lyrasis.org/display/DSPACE/DSpace+Positioning" target="_blank">leading institutions using DSpace</a>.</p>
-      <p>The test user accounts below have their password set to the name of this
-        software in lowercase.</p>
-      <ul>
-        <li>Demo Site Administrator = dspacedemo+admin@gmail.com</li>
-        <li>Demo Community Administrator = dspacedemo+commadmin@gmail.com</li>
-        <li>Demo Collection Administrator = dspacedemo+colladmin@gmail.com</li>
-        <li>Demo Submitter = dspacedemo+submit@gmail.com</li>
-      </ul> -->
+
       <!-- To add stats here as news, total article count left side,   -->
-      <div class="jumbotron jumbotron-fluid media-feed">
-        <div class="media-left">
-          5 items
-          <!-- total Items published in circle -->
+      <div class="media-feed">
+        <div class="media-item-list">
+          <div class="media-item">
+            <div class="media-item-num">10</div>
+            <div class="media-item-text">Total Articles</div>
         </div>
-        <div class="media-right">
-          12.6K journal articles, 5.7K dissertations, 2.2K Master's projects, 1.4K Master's theses, 941 honors theses,
-          552
-          other articles, 386 book sections, 382 reports, ... and more
+        <div class="media-item">
+          <div class="media-item-num">10</div>
+          <div class="media-item-text">Total Articles</div>
+        </div>
+        <div class="media-item">
+          <div class="media-item-num">10</div>
+          <div class="media-item-text">Total Articles</div>
+        </div>
+        <div class="media-item">
+          <div class="media-item-num">10</div>
+          <div class="media-item-text">Total Articles</div>
         </div>
       </div>
     </div>
+    </div>
+    <picture class="background-image">
+      <!-- <source type="image/webp" srcset="assets/dspace/images/banner.webp 2000w, assets/dspace/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w"> -->
+      <source type="image/jpg"
+        srcset="assets/dspace/images/iithbanner.jpg 2000w, assets/dspace/images/iithbanner.jpg 1200w, assets/dspace/images/iithbanner.jpg 768w">
+      <img alt=""
+        [src]="'assets/dspace/images/iithbanner.jpg'" /><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+    </picture>
   </div>
-  <picture class="background-image">
-    <!-- <source type="image/webp" srcset="assets/dspace/images/banner.webp 2000w, assets/dspace/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w"> -->
-    <source type="image/jpg"
-      srcset="assets/dspace/images/iithbanner.jpg 2000w, assets/dspace/images/iithbanner.jpg 1200w, assets/dspace/images/iithbanner.jpg 768w">
-    <img alt=""
-      [src]="'assets/dspace/images/iithbanner.jpg'" /><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
-  </picture>
   <!-- <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small> -->
 </div>
