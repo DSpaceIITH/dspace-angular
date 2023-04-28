@@ -1,0 +1,1711 @@
+{
+  "_embedded": {
+    "collections": [
+      {
+        "id": "c1cd2054-e804-43f4-960a-39a81631190a",
+        "uuid": "c1cd2054-e804-43f4-960a-39a81631190a",
+        "name": "AI_Articles",
+        "handle": "123456789/13891",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/13891",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "AI_Articles",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c1cd2054-e804-43f4-960a-39a81631190a/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "76d78948-7e5b-4d4b-a110-c12e738b48e2",
+        "uuid": "76d78948-7e5b-4d4b-a110-c12e738b48e2",
+        "name": "AI_Conference Papers",
+        "handle": "123456789/13305",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/13305",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "AI_Conference Papers",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/76d78948-7e5b-4d4b-a110-c12e738b48e2/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "13d0da88-4765-476b-b223-6013cad06c39",
+        "uuid": "13d0da88-4765-476b-b223-6013cad06c39",
+        "name": "April",
+        "handle": "123456789/2525",
+        "metadata": {
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/2525",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "April",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/13d0da88-4765-476b-b223-6013cad06c39/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4",
+        "uuid": "6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4",
+        "name": "Artificial Intelligence-Master's Degree",
+        "handle": "123456789/11708",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/11708",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Artificial Intelligence-Master's Degree",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/6f4d6805-e7a1-441d-9ff4-01c8d2c31cd4/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "458d25a7-f424-4738-b6e9-a7f7411d46e9",
+        "uuid": "458d25a7-f424-4738-b6e9-a7f7411d46e9",
+        "name": "Artificial Intelligence-Ph. D. / Sc.D.",
+        "handle": "123456789/11709",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/11709",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Artificial Intelligence-Ph. D. / Sc.D.",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/458d25a7-f424-4738-b6e9-a7f7411d46e9/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eee58a46-5649-4cf2-82e3-0fedc5c388c9",
+        "uuid": "eee58a46-5649-4cf2-82e3-0fedc5c388c9",
+        "name": "August",
+        "handle": "123456789/11998",
+        "metadata": {
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/11998",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "August",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/eee58a46-5649-4cf2-82e3-0fedc5c388c9/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0b634b29-3baa-4d17-be20-caff4684539e",
+        "uuid": "0b634b29-3baa-4d17-be20-caff4684539e",
+        "name": "Biomedical Engineering - Master's degree",
+        "handle": "123456789/127",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/127",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Biomedical Engineering - Master's degree",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/0b634b29-3baa-4d17-be20-caff4684539e/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cc8840bc-0902-40ca-be70-c5b5d1a0ba27",
+        "uuid": "cc8840bc-0902-40ca-be70-c5b5d1a0ba27",
+        "name": "Biomedical Engineering - Ph.D. / Sc.D.",
+        "handle": "123456789/126",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/126",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Biomedical Engineering - Ph.D. / Sc.D.",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/cc8840bc-0902-40ca-be70-c5b5d1a0ba27/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "02887147-50ea-43bc-af19-120da6442761",
+        "uuid": "02887147-50ea-43bc-af19-120da6442761",
+        "name": "Biotechnology Engineering - Master's degree",
+        "handle": "123456789/136",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/136",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Biotechnology Engineering - Master's degree",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/02887147-50ea-43bc-af19-120da6442761/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "24061e8b-7232-44fc-9a53-ae28378651ba",
+        "uuid": "24061e8b-7232-44fc-9a53-ae28378651ba",
+        "name": "Biotechnology Engineering - Ph.D. / Sc.D.",
+        "handle": "123456789/137",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/137",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Biotechnology Engineering - Ph.D. / Sc.D.",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/24061e8b-7232-44fc-9a53-ae28378651ba/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "be691afc-8624-469b-a0ff-6e29ae9409d6",
+        "uuid": "be691afc-8624-469b-a0ff-6e29ae9409d6",
+        "name": "BME_Articles (Scopus)",
+        "handle": "123456789/1142",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/1142",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Articles (Scopus)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/be691afc-8624-469b-a0ff-6e29ae9409d6/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b073b6fd-b67c-487d-ac97-bfe5c448b826",
+        "uuid": "b073b6fd-b67c-487d-ac97-bfe5c448b826",
+        "name": "BME_Articles (WoS)",
+        "handle": "123456789/1141",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/1141",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Articles (WoS)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/b073b6fd-b67c-487d-ac97-bfe5c448b826/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0c090259-137a-4042-b186-737d2b08de96",
+        "uuid": "0c090259-137a-4042-b186-737d2b08de96",
+        "name": "BME_Book Chapter",
+        "handle": "123456789/13118",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/13118",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Book Chapter",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/0c090259-137a-4042-b186-737d2b08de96/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e04a0f7-bd3f-47f3-ba7c-96bdf9996817",
+        "uuid": "9e04a0f7-bd3f-47f3-ba7c-96bdf9996817",
+        "name": "BME_Conference Papers (Scopus)",
+        "handle": "123456789/2174",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/2174",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Conference Papers (Scopus)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/9e04a0f7-bd3f-47f3-ba7c-96bdf9996817/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7048ecbe-fe83-4fa2-b215-e5e2381f82b4",
+        "uuid": "7048ecbe-fe83-4fa2-b215-e5e2381f82b4",
+        "name": "BME_Editorial (Scopus)",
+        "handle": "123456789/2903",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/2903",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Editorial (Scopus)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/7048ecbe-fe83-4fa2-b215-e5e2381f82b4/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c0d25d34-4e96-4209-bdb5-ef81b773fd3f",
+        "uuid": "c0d25d34-4e96-4209-bdb5-ef81b773fd3f",
+        "name": "BME_Erratum (Scopus)",
+        "handle": "123456789/2905",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/2905",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Erratum (Scopus)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c0d25d34-4e96-4209-bdb5-ef81b773fd3f/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3c5a0f72-65d4-4a49-8d18-04bea6aa877a",
+        "uuid": "3c5a0f72-65d4-4a49-8d18-04bea6aa877a",
+        "name": "BME_Reviews (Scopus)",
+        "handle": "123456789/2846",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/2846",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Reviews (Scopus)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/3c5a0f72-65d4-4a49-8d18-04bea6aa877a/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "10d0283a-0ad7-4f78-a170-e0167f6aba16",
+        "uuid": "10d0283a-0ad7-4f78-a170-e0167f6aba16",
+        "name": "BME_Reviews (WoS)",
+        "handle": "123456789/14305",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/14305",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "BME_Reviews (WoS)",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/10d0283a-0ad7-4f78-a170-e0167f6aba16/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "eabb3c4e-00fb-4374-a79e-32de4aa5fee3",
+        "uuid": "eabb3c4e-00fb-4374-a79e-32de4aa5fee3",
+        "name": "Book",
+        "handle": "123456789/13701",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/13701",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Book",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/eabb3c4e-00fb-4374-a79e-32de4aa5fee3/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c5c95432-6701-4ac4-9318-cd507e415890",
+        "uuid": "c5c95432-6701-4ac4-9318-cd507e415890",
+        "name": "Books",
+        "handle": "123456789/4343",
+        "metadata": {
+          "dc.description.abstract": [
+            {
+              "value": "",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://localhost:4000/handle/123456789/4343",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.title": [
+            {
+              "value": "Books",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "type": "collection",
+        "_links": {
+          "harvester": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/harvester"
+          },
+          "itemtemplate": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/itemtemplate"
+          },
+          "license": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/license"
+          },
+          "logo": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/logo"
+          },
+          "mappedItems": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/mappedItems"
+          },
+          "parentCommunity": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/parentCommunity"
+          },
+          "adminGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/adminGroup"
+          },
+          "submittersGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/submittersGroup"
+          },
+          "itemReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/itemReadGroup"
+          },
+          "bitstreamReadGroup": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/bitstreamReadGroup"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890"
+          },
+          "workflowGroups": [
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/workflowGroups/reviewer",
+              "name": "reviewer"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/workflowGroups/editor",
+              "name": "editor"
+            },
+            {
+              "href": "http://localhost:8080/server/api/core/collections/c5c95432-6701-4ac4-9318-cd507e415890/workflowGroups/finaleditor",
+              "name": "finaleditor"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "first": {
+      "href": "http://localhost:8080/server/api/core/collections?page=0&size=20"
+    },
+    "self": {
+      "href": "http://localhost:8080/server/api/core/collections"
+    },
+    "next": {
+      "href": "http://localhost:8080/server/api/core/collections?page=1&size=20"
+    },
+    "last": {
+      "href": "http://localhost:8080/server/api/core/collections?page=8&size=20"
+    },
+    "search": {
+      "href": "http://localhost:8080/server/api/core/collections/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 169,
+    "totalPages": 9,
+    "number": 0
+  }
+}

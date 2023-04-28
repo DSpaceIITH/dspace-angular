@@ -11,19 +11,38 @@ import { HomeNewsComponent as BaseComponent } from '../../../../../app/home-page
  * Component to render the news section on the home page
  */
 export class HomeNewsComponent extends BaseComponent implements OnInit {
-  key: string[];
-  data: any;
+  numberOfCollections: number;
+  numberOfCommunities: number;
 
   ngOnInit() {
     console.log('Here__');
-    this.fetchData();
+    this.fetchNewsData();
   }
 
-  fetchData() {
-    fetch('https://iith.dev/dining.json')
+  fetchNewsData() {
+    // BASE_URL: string = 'http://localhost:8080/server/';
+
+    fetch('http://localhost:8080/server/api/core/collections')
       .then((response) => response.json())
       .then((data) => {
-        this.data = data;
+        console.log(data);
+
+        if (data?.page?.totalElements) {
+          this.numberOfCollections = data.page.totalElements;
+        }
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+
+    fetch('http://localhost:8080/server/api/core/communities')
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+
+        if (data?.page?.totalElements) {
+          this.numberOfCommunities = data.page.totalElements;
+        }
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
