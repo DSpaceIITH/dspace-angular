@@ -39,3 +39,7 @@ package-lock.json
 /nbproject/
 
 junit.xml
+**/ganesh/*
+
+# Development environment
+config/config.development.yaml
