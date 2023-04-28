@@ -18,29 +18,37 @@
         <div class="media-item-list">
           <div class="media-item">
             <div class="media-item-num">10</div>
+            <div class="media-item-text">{{ data }}</div>
+          </div>
+          <div class="media-item">
+            <div class="media-item-num">10</div>
             <div class="media-item-text">Total Articles</div>
-        </div>
-        <div class="media-item">
-          <div class="media-item-num">10</div>
-          <div class="media-item-text">Total Articles</div>
-        </div>
-        <div class="media-item">
-          <div class="media-item-num">10</div>
-          <div class="media-item-text">Total Articles</div>
-        </div>
-        <div class="media-item">
-          <div class="media-item-num">10</div>
-          <div class="media-item-text">Total Articles</div>
+          </div>
+          <div class="media-item">
+            <div class="media-item-num">10</div>
+            <div class="media-item-text">Total Articles</div>
+          </div>
+          <div class="media-item">
+            <div class="media-item-num">10</div>
+            <div class="media-item-text">Total Articles</div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
     <picture class="background-image">
       <!-- <source type="image/webp" srcset="assets/dspace/images/banner.webp 2000w, assets/dspace/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w"> -->
-      <source type="image/jpg"
-        srcset="assets/dspace/images/iithbanner.jpg 2000w, assets/dspace/images/iithbanner.jpg 1200w, assets/dspace/images/iithbanner.jpg 768w">
-      <img alt=""
-        [src]="'assets/dspace/images/iithbanner.jpg'" /><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+      <source
+        type="image/jpg"
+        srcset="
+          assets/dspace/images/iithbanner.jpg 2000w,
+          assets/dspace/images/iithbanner.jpg 1200w,
+          assets/dspace/images/iithbanner.jpg  768w
+        "
+      />
+      <img
+        alt=""
+        [src]="'assets/dspace/images/iithbanner.jpg'"
+      /><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
     </picture>
   </div>
   <!-- <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small> -->

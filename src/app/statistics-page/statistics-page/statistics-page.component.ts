@@ -6,7 +6,7 @@ import { UsageReport } from '../../core/statistics/models/usage-report.model';
 import { RemoteData } from '../../core/data/remote-data';
 import {
   getRemoteDataPayload,
-  getFirstSucceededRemoteData
+  getFirstSucceededRemoteData,
 } from '../../core/shared/operators';
 import { DSpaceObject } from '../../core/shared/dspace-object.model';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -19,10 +19,10 @@ import { redirectOn4xx } from '../../core/shared/authorized.operators';
  */
 @Component({
   selector: 'ds-statistics-page',
-  template: ''
+  template: '',
 })
-export abstract class StatisticsPageComponent<T extends DSpaceObject> implements OnInit {
-
+export abstract class StatisticsPageComponent<T extends DSpaceObject>
+  implements OnInit {
   /**
    * The scope dso for this statistics page, as an Observable.
    */
@@ -40,22 +40,21 @@ export abstract class StatisticsPageComponent<T extends DSpaceObject> implements
 
   hasData$: Observable<boolean>;
 
+  key: string[];
+
   constructor(
     protected route: ActivatedRoute,
     protected router: Router,
     protected usageReportService: UsageReportDataService,
     protected nameService: DSONameService,
-    protected authService: AuthService,
-  ) {
-  }
+    protected authService: AuthService
+  ) {}
 
   ngOnInit(): void {
     this.scope$ = this.getScope$();
     this.reports$ = this.getReports$();
     this.hasData$ = this.reports$.pipe(
-      map((reports) => reports.some(
-        (report) => report.points.length > 0
-      )),
+      map((reports) => reports.some((report) => report.points.length > 0))
     );
   }
 
@@ -67,7 +66,7 @@ export abstract class StatisticsPageComponent<T extends DSpaceObject> implements
       map((data) => data.scope as RemoteData<T>),
       redirectOn4xx(this.router, this.authService),
       getFirstSucceededRemoteData(),
-      getRemoteDataPayload(),
+      getRemoteDataPayload()
     );
   }
 
@@ -78,9 +77,11 @@ export abstract class StatisticsPageComponent<T extends DSpaceObject> implements
     return this.scope$.pipe(
       switchMap((scope) =>
         combineLatest(
-          this.types.map((type) => this.usageReportService.getStatistic(scope.id, type))
-        ),
-      ),
+          this.types.map((type) =>
+            this.usageReportService.getStatistic(scope.id, type)
+          )
+        )
+      )
     );
   }
 

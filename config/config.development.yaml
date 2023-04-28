@@ -4,5 +4,5 @@ rest:
   port: 8080
   nameSpace: /server
 
-# themes:
-# - name: 'custom'
+themes:
+  - name: "dspace"
