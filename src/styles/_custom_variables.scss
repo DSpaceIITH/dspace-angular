@@ -22,12 +22,12 @@
   --ds-header-bg: #{$white};
   --ds-header-logo-height: 50px;
   --ds-header-logo-height-xs: 50px;
-  --ds-header-icon-color: #{$orange};
-  --ds-header-icon-color-hover: #{$orange};
+  --ds-header-icon-color: #{$gray-800};
+  --ds-header-icon-color-hover: #{$black};
   --ds-header-navbar-border-top-color: #{$white};
   --ds-header-navbar-border-bottom-color: #{$gray-400};
-  --ds-navbar-link-color: #{$orange};
-  --ds-navbar-link-color-hover: #{darken($orange, 15%)};
+  --ds-navbar-link-color: #{$black};
+  --ds-navbar-link-color-hover: #{darken($black, 15%)};
 
   $admin-sidebar-bg: darken(#2B4E72, 17%);
   $admin-sidebar-active-bg: darken($admin-sidebar-bg, 3%);
