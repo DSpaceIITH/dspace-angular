@@ -1,39 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeNewsComponent as BaseComponent } from '../../../../../app/home-page/home-news/home-news.component';
+import { Observable, Observer } from 'rxjs';
 
 @Component({
   selector: 'ds-home-news',
   styleUrls: ['./home-news.component.scss'],
   templateUrl: './home-news.component.html',
 })
-
-/**
- * Component to render the news section on the home page
- */
-export class HomeNewsComponent extends BaseComponent implements OnInit {
+export class HomeNewsComponent implements OnInit {
   numberOfCollections: number;
   numberOfCommunities: number;
 
   ngOnInit() {
-    this.fetchNewsData();
-  }
-
-  fetchNewsData() {
-    // BASE_URL: string = 'http://localhost:8080/server/';
-
-    const collectionsPromise = fetch(
-      'http://localhost:8080/server/api/core/collections'
-    ).then((response) => response.json());
-
-    const communitiesPromise = fetch(
-      'http://localhost:8080/server/api/core/communities'
-    ).then((response) => response.json());
-
-    Promise.all([collectionsPromise, communitiesPromise])
-      .then(([collectionsData, communitiesData]) => {
-        // console.log('Collections:', collectionsData);
-        // console.log('Communities:', communitiesData);
-
+    this.fetchNewsData().subscribe({
+      next: ([collectionsData, communitiesData]) => {
         if (collectionsData?.page?.totalElements) {
           this.numberOfCollections = collectionsData.page.totalElements;
         }
@@ -41,9 +20,31 @@ export class HomeNewsComponent extends BaseComponent implements OnInit {
         if (communitiesData?.page?.totalElements) {
           this.numberOfCommunities = communitiesData.page.totalElements;
         }
-      })
-      .catch((error) => {
+      },
+      error: (error) => {
         console.error('Error fetching data:', error);
-      });
+      },
+    });
+  }
+
+  fetchNewsData(): Observable<[any, any]> {
+    return new Observable<[any, any]>((observer: Observer<[any, any]>) => {
+      const collectionsPromise = fetch(
+        'http://localhost:8080/server/api/core/collections'
+      ).then((response) => response.json());
+
+      const communitiesPromise = fetch(
+        'http://localhost:8080/server/api/core/communities'
+      ).then((response) => response.json());
+
+      Promise.all([collectionsPromise, communitiesPromise])
+        .then(([collectionsData, communitiesData]) => {
+          observer.next([collectionsData, communitiesData]);
+          observer.complete();
+        })
+        .catch((error) => {
+          observer.error(error);
+        });
+    });
   }
 }
